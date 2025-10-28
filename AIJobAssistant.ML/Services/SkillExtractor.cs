@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AIJobAssistant.ML.Services
 {
     internal class SkillExtractor
-    {
+    { 
 
     }
 }
