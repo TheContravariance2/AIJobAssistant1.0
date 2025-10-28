@@ -9,5 +9,6 @@ namespace AIJobAssistant.ML.Services
     internal class SkillExtractor
     { 
 
+        ///sadasds
     }
 }
