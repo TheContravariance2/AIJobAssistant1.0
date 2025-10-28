@@ -1,0 +1,24 @@
+﻿@model List<AIJobAssistant.Web.Models.JobViewModel>
+
+<h2>Job Results for "@ViewBag.Skills"</h2>
+
+<table border="1" cellpadding="6">
+    <tr>
+        <th>Title</th>
+        <th>Company</th>
+        <th>Location</th>
+        <th>Posted</th>
+        <th>Score</th>
+    </tr>
+
+    @foreach (var job in Model)
+    {
+        <tr>
+            <td>@job.Title</td>
+            <td>@job.Company</td>
+            <td>@job.Location</td>
+            <td>@job.PostedDate.ToShortDateString()</td>
+            <td>@job.Score</td>
+        </tr>
+    }
+</table>

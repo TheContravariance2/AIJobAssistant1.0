@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "AI Job Assistant";
+}
+<h2>Upload Your Resume</h2>
+
+<form asp-action="UploadResume" asp-controller="Home" enctype="multipart/form-data" method="post">
+    <input type="file" name="file" />
+    <button type="submit">Upload</button>
+</form>
